@@ -56,7 +56,7 @@ In contrast to the built-in typed array constructors which store values accordin
 To use in Observable,
 
 ```javascript
-littleEndianFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@umd/browser.js' )
+littleEndianFactory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -68,7 +68,7 @@ var littleEndianFactory = require( 'path/to/vendor/umd/array-little-endian-facto
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -479,7 +479,7 @@ var str = arr.toString();
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
