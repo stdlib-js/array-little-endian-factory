@@ -54,7 +54,7 @@ In contrast to the built-in typed array constructors which store values accordin
 ## Usage
 
 ```javascript
-import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@esm/index.mjs';
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-esm/index.mjs';
 ```
 
 #### littleEndianFactory( dtype )
@@ -457,7 +457,7 @@ var str = arr.toString();
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@esm/index.mjs';
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-esm/index.mjs';
 
 var Float64ArrayLE = littleEndianFactory( 'float64' );
 
