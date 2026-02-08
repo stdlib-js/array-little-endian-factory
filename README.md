@@ -54,6 +54,11 @@ In contrast to the built-in typed array constructors which store values accordin
 ## Usage
 
 ```javascript
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-little-endian-factory/tags). For example,
+
+```javascript
 import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-deno/mod.js';
 ```
 
@@ -452,7 +457,7 @@ var str = arr.toString();
 ```javascript
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-deno/mod.js';
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@deno/mod.js';
 
 var Float64ArrayLE = littleEndianFactory( 'float64' );
 
