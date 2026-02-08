@@ -54,6 +54,11 @@ In contrast to the built-in typed array constructors which store values accordin
 ## Usage
 
 ```javascript
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-little-endian-factory/tags). For example,
+
+```javascript
 import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-esm/index.mjs';
 ```
 
@@ -457,7 +462,7 @@ var str = arr.toString();
 
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@v0.1.1-esm/index.mjs';
+import littleEndianFactory from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-little-endian-factory@esm/index.mjs';
 
 var Float64ArrayLE = littleEndianFactory( 'float64' );
 
