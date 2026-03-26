@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-26)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`df7737d`](https://github.com/stdlib-js/stdlib/commit/df7737db3596bbb6dae75d5af8b6f8e904ab8695) - **bench:** refactor to use string interpolation in `array/little-endian-factory` [(#11141)](https://github.com/stdlib-js/stdlib/pull/11141) _(by Harshit Verma)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Harshit Verma
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
