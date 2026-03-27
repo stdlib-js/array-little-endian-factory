@@ -4,7 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-26)
+## Unreleased (2026-03-27)
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#11151](https://github.com/stdlib-js/stdlib/issues/11151)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +24,7 @@
 
 <details>
 
+-   [`7fb96a3`](https://github.com/stdlib-js/stdlib/commit/7fb96a36dea954ceb18b65b02e511aaea505b25d) - **bench:** add missing method name in benchmark description [(#11155)](https://github.com/stdlib-js/stdlib/pull/11155) _(by Matt Van Horn)_
 -   [`df7737d`](https://github.com/stdlib-js/stdlib/commit/df7737db3596bbb6dae75d5af8b6f8e904ab8695) - **bench:** refactor to use string interpolation in `array/little-endian-factory` [(#11141)](https://github.com/stdlib-js/stdlib/pull/11141) _(by Harshit Verma)_
 
 </details>
@@ -24,9 +37,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Harshit Verma
+-   Matt Van Horn
 
 </section>
 
